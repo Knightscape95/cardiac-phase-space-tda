@@ -1,7 +1,7 @@
 #  Cardiac Phase Space Collapse 
 **An Edge-AI Early Warning System for Arrhythmia Using Topological Data Analysis**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Knightscape95/cardiac-phase-space-tda/blob/main/Med_Fixed.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Knightscape95/cardiac-phase-space-tda/blob/main/Med_Fixed.ipynb(1))
 [![YouTube Video](https://img.shields.io/badge/YouTube-Watch_Pitch-FF0000?logo=youtube&logoColor=white)](https://youtu.be/kyueGY_AyLc?si=iYdjVv2UpG45g3Um)
 [![MedGemma Challenge](https://img.shields.io/badge/Kaggle-MedGemma_Impact_Challenge-blue.svg)](https://www.kaggle.com/competitions/med-gemma-impact-challenge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -24,9 +24,9 @@ This repository contains the code and methodology for **Cardiac Phase Space Coll
 According to Chaos Theory and Takens' Embedding Theorem, a healthy heart operates as a highly complex, chaotic attractor in 3D phase space. As the heart transitions toward fibrillation or arrhythmia, it loses this variability and collapses into rigid periodicity.
 
 <p align="center">
-  <img src="assets/takens_embedding.png" width="800" alt="3D Phase Space Attractor Comparison">
+  <img src="assets/newplot.png" width="800" alt="3D Phase Space Attractor Comparison">
   <br>
-  <em>Figure 1: 3D attractor reconstruction of healthy sinus rhythm vs. pre-arrhythmia using the Px1 signal processor.</em>
+  <em>Figure 1: 3D attractor reconstruction of healthy sinus rhythm vs. pre-arrhythmia.</em>
 </p>
 
 We measure this collapse using **Topological Data Analysis (TDA)**—tracking 1-dimensional persistent loops ($\beta_1$). Their disappearance signals a physical **Manifold Collapse** minutes before a cardiac event occurs.
