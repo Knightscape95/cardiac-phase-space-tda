@@ -32,7 +32,7 @@ According to Chaos Theory and Takens' Embedding Theorem, a healthy heart operate
 We measure this collapse using **Topological Data Analysis (TDA)**—tracking 1-dimensional persistent loops ($\beta_1$). Their disappearance signals a physical **Manifold Collapse** minutes before a cardiac event occurs.
 
 <p align="center">
-  <img src="assets/tda_persistence.png" width="800" alt="Topological Data Analysis Persistence Diagram">
+  <img src="assets/crisis_1_betti_evolution.png" width="800" alt="Topological Data Analysis Persistence Diagram">
 </p>
 
 ---
