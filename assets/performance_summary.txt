@@ -1,0 +1,26 @@
+======================================================================
+EDGE DEVICE PERFORMANCE REPORT
+======================================================================
+
+HARDWARE CONFIGURATION:
+----------------------------------------------------------------------
+Device Type: x86_64 Laptop/Desktop
+Processor: x86_64
+CPU Cores: 1 physical, 2 logical
+RAM: 12.67 GB
+Architecture: x86_64
+
+PERFORMANCE METRICS:
+----------------------------------------------------------------------
+TDA Processing: 1.511s
+MedGemma Inference: 13.617s
+Total Latency: 8.531s ± 0.273s
+Max Latency: 8.733s
+
+TARGET EVALUATION:
+----------------------------------------------------------------------
+Target: 30s
+Actual: 8.53s
+Status: PASS ✓
+
+======================================================================
